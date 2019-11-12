@@ -1,24 +1,24 @@
 # git-commit-commitizen
+### A vue project
 
-## Project setup
-```
-yarn install
-```
+## git config
+```bash
+  在git中，我们使用git config 命令用来配置git的配置文件，git配置级别主要有以下3类：
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+  git config -l 看所有的配置信息
 
-### Compiles and minifies for production
-```
-yarn build
-```
+  1、仓库级别 local 【优先级最高】
+  git config --local -l 查看仓库配置
 
-### Lints and fixes files
-```
-yarn lint
-```
+  2、用户级别 global【优先级次之】
+  git config --global -l 查看仓库配置
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  3、系统级别 system【优先级最低】
+  git config --system -l 查看仓库配置
+
+  git config [--local|--global|--system] user.email “you@example.com”
+  git config [--local|--global|--system] user.name “Your Name”
+
+  ```
+
+
