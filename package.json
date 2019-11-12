@@ -51,6 +51,7 @@
     }
   },
   "gitHooks": {
-    "pre-commit": "echo 'pre-commit'"
+    "pre-commit": "echo 'pre-commit'",
+    "commit-msg": "echo commit-msg"
   }
 }
