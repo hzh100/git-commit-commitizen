@@ -1,4 +1,4 @@
-# git-commit-commitizen
+# git-commit-commitizen 222
   *A vue project*`
 
 ## 采用 [Google Angularjs commit规范](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines) 
