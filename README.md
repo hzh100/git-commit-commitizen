@@ -191,7 +191,15 @@
 #### 以上操作安装配置完，可在项目中使用git cz 进行 commit
 
 ## 配置 commit message 验证， 验证是否符合规范
-  1. 配置gitHooks
+  
+  1. 安装 yorkie package:
+
+  ```
+    npm i yorkie --save-dev
+
+  ```
+
+  2. 配置gitHooks
   ```
       // package.json
 
@@ -203,7 +211,7 @@
       }
 
   ```
-  2. 添加验证msg格式的verify-commit-msg.js（参考vue作者尤大大在vue中的）
+  3. 添加验证msg格式的verify-commit-msg.js（参考vue作者尤大大在vue中的）
   ```
     const chalk = require('chalk')
     const msgPath = process.env.GIT_PARAMS
