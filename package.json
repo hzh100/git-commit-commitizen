@@ -51,7 +51,7 @@
     }
   },
   "gitHooks": {
-    "pre-commit": "echo 'pre-commit'",
+    "pre-commit": "npm run build",
     "commit-msg": "echo commit-msg"
   }
 }
