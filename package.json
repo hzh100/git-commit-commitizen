@@ -60,6 +60,9 @@
     "commit-msg": "node scripts/verify-commit-msg.js"
   },
   "lint-staged": {
-    "*.{js,jsx}": ["eslint --fix", "git add"]
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
