@@ -147,7 +147,7 @@
 ```
 ###### Body部分的格式是固定的，必须写成` This reverts commit &lt;hash>. `，其中的hash是被撤销 commit 的 SHA 标识符。
 
-###### 如果当前 commit 与被撤销的 commit，在同一个发布（release）里面，那么它们都不会出现在 Change log 里面。如果两者在不同的发布，那么当前 commit，会出现在 Change log 的Reverts小标题下面。
+如果当前 commit 与被撤销的 commit，在同一个发布（release）里面，那么它们都不会出现在 Change log 里面。如果两者在不同的发布，那么当前 commit，会出现在 Change log 的Reverts小标题下面。
 
 
 
