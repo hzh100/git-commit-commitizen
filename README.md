@@ -131,13 +131,13 @@
 
 #### 关闭 Issue
 
-##### 如果当前 commit 针对某个issue，那么可以在 Footer 部分关闭这个 issue 。
+如果当前 commit 针对某个issue，那么可以在 Footer 部分关闭这个 issue 。
 
 ` Closes #234 `
 
 #### Revert
 
-##### 还有一种特殊情况，如果当前 commit 用于撤销以前的 commit，则必须以revert:开头，后面跟着被撤销 Commit 的 Header。
+还有一种特殊情况，如果当前 commit 用于撤销以前的 commit，则必须以revert:开头，后面跟着被撤销 Commit 的 Header。
 
 ```
   revert: feat(pencil): add 'graphiteWidth' option
