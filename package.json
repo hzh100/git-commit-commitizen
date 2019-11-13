@@ -24,8 +24,8 @@
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10",
-    "yorkie": "^2.0.0"
+    "lint-staged": "^9.4.2",
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
@@ -56,7 +56,10 @@
     }
   },
   "gitHooks": {
-    "pre-commit": "str = hello; echo $str, pre-commit",
+    "pre-commit": "echo pre-commit",
     "commit-msg": "node scripts/verify-commit-msg.js"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": ["eslint --fix", "git add"]
   }
 }
