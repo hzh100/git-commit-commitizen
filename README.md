@@ -65,9 +65,9 @@
 #### scope
 
 ##### scope用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
-##### 例如在Angular，可以是$location, $browser, $compile, $rootScope, ngHref, ngClick, ngView等。
+    例如在Angular，可以是$location, $browser, $compile, $rootScope, ngHref, ngClick, ngView等。
 
-##### 如果你的修改影响了不止一个scope，你可以使用*代替。
+    如果你的修改影响了不止一个scope，你可以使用*代替。
 
 #### subject
 
