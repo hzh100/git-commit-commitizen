@@ -1,6 +1,6 @@
 ## Git Commit Message Convention
 
-[source](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md)
+> [source](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md)
 
 > This is adapted from [Angular's commit convention](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular).
 
